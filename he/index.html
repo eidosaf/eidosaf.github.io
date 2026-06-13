@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Google Search Console verification -->
+  <meta name="google-site-verification" content="w0QFg-jhoojcEvVQpU9nnPe5K0-Art6lbwjvugS_B4M" />
+
+  <!-- Primary SEO: Hebrew name in title + description -->
+  <title>עידו ספראי — מייסד שותף ו-CTO | מנהל פיתוח</title>
+  <meta name="description"
+    content="עידו ספראי הוא CTO ומייסד שותף בחברת Vassago, עם מעל 20 שנות ניהול פיתוח גלובלי ומומחיות עמוקה ב-AI אג'נטי, תשתיות וקטוריות ומערכות ענן בקנה מידה עצום (2 מיליארד משתמשים פעילים)." />
+  <meta name="author" content="עידו ספראי" />
+  <link rel="canonical" href="https://eidosaf.github.io/he/" />
+
+  <!-- Language versions -->
+  <link rel="alternate" hreflang="he" href="https://eidosaf.github.io/he/" />
+  <link rel="alternate" hreflang="en" href="https://eidosaf.github.io/" />
+  <link rel="alternate" hreflang="x-default" href="https://eidosaf.github.io/" />
+
+  <!-- Open Graph / social -->
+  <meta property="og:type" content="profile" />
+  <meta property="og:title" content="עידו ספראי — מייסד שותף ו-CTO" />
+  <meta property="og:description"
+    content="CTO ומייסד שותף ב-Vassago. מעל 20 שנות ניהול פיתוח ב-AI אג'נטי, תשתיות וקטוריות ומערכות בקנה מידה של 2 מיליארד משתמשים. לשעבר Meta." />
+  <meta property="og:url" content="https://eidosaf.github.io/he/" />
+  <meta property="og:image" content="https://avatars.githubusercontent.com/u/6242607?v=4" />
+  <meta name="twitter:card" content="summary" />
+
+  <!-- Structured data: links the Hebrew name to the same person -->
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "עידו ספראי",
+  "alternateName": "Eido Safrai",
+  "url": "https://eidosaf.github.io/he/",
+  "image": "https://avatars.githubusercontent.com/u/6242607?v=4",
+  "jobTitle": "מייסד שותף ו-CTO",
+  "worksFor": { "@type": "Organization", "name": "Vassago" },
+  "description": "CTO מעשי עם מעל 20 שנות ניהול פיתוח גלובלי ומומחיות אדריכלית ב-AI אג'נטי, תשתיות וקטוריות ומערכות ענן בקנה מידה עצום (2 מיליארד משתמשים פעילים).",
+  "knowsAbout": ["AI אג'נטי", "מסדי נתונים וקטוריים", "LLMs", "ענן / SaaS", "Kubernetes", "מיקרו-שירותים", "ניהול פיתוח"],
+  "alumniOf": [
+    { "@type": "CollegeOrUniversity", "name": "אוניברסיטת תל אביב" },
+    { "@type": "CollegeOrUniversity", "name": "אוניברסיטת בר-אילן" }
+  ],
+  "sameAs": [
+    "https://github.com/eidosaf",
+    "https://www.linkedin.com/in/eido-safrai-8330893",
+    "https://stackoverflow.com/users/27333343/eido-safrai",
+    "https://instagram.com/eidosaf"
+  ]
+}
+</script>
+
+  <style>
+    :root {
+      --bg: #0d1117;
+      --panel: #161b22;
+      --border: #30363d;
+      --text: #e6edf3;
+      --muted: #9da7b3;
+      --accent: #2f81f7;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Arial Hebrew", Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+      -webkit-font-smoothing: antialiased;
+    }
+    .wrap { max-width: 760px; margin: 0 auto; padding: 72px 24px 96px; }
+
+    header { display: flex; align-items: center; gap: 24px; margin-bottom: 40px; }
+    header img { width: 96px; height: 96px; border-radius: 50%; border: 2px solid var(--border); flex-shrink: 0; }
+    h1 { font-size: 2rem; letter-spacing: -0.01em; }
+    .role { color: var(--muted); font-size: 1.05rem; margin-top: 4px; }
+    .lang { margin-top: 8px; font-size: 0.9rem; }
+    .lang a { color: var(--accent); text-decoration: none; }
+    .lang a:hover { text-decoration: underline; }
+
+    section { margin-bottom: 36px; }
+    h2 { font-size: 0.85rem; letter-spacing: 0.04em; color: var(--muted); margin-bottom: 14px; font-weight: 700; }
+    p { margin-bottom: 14px; color: var(--text); }
+    p:last-child { margin-bottom: 0; }
+
+    .roles { list-style: none; display: grid; gap: 12px; }
+    .roles li { background: var(--panel); border: 1px solid var(--border); border-radius: 10px; padding: 14px 16px; }
+    .roles .top { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+    .roles strong { color: var(--text); }
+    .roles .yr { color: var(--muted); font-size: 0.85rem; white-space: nowrap; direction: ltr; }
+    .roles .title { color: var(--accent); font-size: 0.95rem; margin: 2px 0 6px; }
+    .roles span.desc { color: var(--muted); display: block; font-size: 0.95rem; }
+
+    .skills { display: flex; flex-wrap: wrap; gap: 8px; }
+    .skills span { background: var(--panel); border: 1px solid var(--border); border-radius: 999px; padding: 5px 12px; font-size: 0.85rem; color: var(--muted); }
+
+    .edu { color: var(--muted); }
+    .edu strong { color: var(--text); }
+
+    .links { display: flex; flex-wrap: wrap; gap: 12px; }
+    .links a {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: var(--panel); border: 1px solid var(--border);
+      border-radius: 8px; padding: 10px 16px;
+      color: var(--text); text-decoration: none; font-size: 0.95rem;
+      transition: border-color 0.15s, transform 0.15s;
+    }
+    .links a:hover { border-color: var(--accent); transform: translateY(-1px); }
+
+    footer { margin-top: 56px; color: var(--muted); font-size: 0.85rem; text-align: center; }
+
+    @media (max-width: 560px) {
+      header { flex-direction: column; text-align: center; }
+      .wrap { padding: 48px 20px 72px; }
+    }
+  </style>
+</head>
+
+<body>
+  <main class="wrap">
+    <header>
+      <img src="https://avatars.githubusercontent.com/u/6242607?v=4" alt="עידו ספראי" />
+      <div>
+        <h1>עידו ספראי</h1>
+        <div class="role">מייסד שותף ו-CTO ב-Vassago · תל אביב, ישראל</div>
+        <div class="lang"><a href="/">English</a></div>
+      </div>
+    </header>
+
+    <section>
+      <h2>אודות</h2>
+      <p>
+        אני <strong>עידו ספראי</strong>, CTO חזוני ומעשי עם מעל 20 שנות ניהול פיתוח גלובלי
+        ומומחיות אדריכלית עמוקה ב-AI אג'נטי, תשתיות וקטוריות ומערכות ענן בקנה מידה עצום
+        המשרתות מעל 2 מיליארד משתמשים פעילים חודשיים.
+      </p>
+      <p>
+        כיום אני מייסד שותף ו-CTO ב-Vassago, שבונה את שכבת הנתונים לעידן חיפוש ה-AI.
+        בעבר הובלתי את שירותי האימות (Authentication) של Meta, ומילאתי תפקידי סמנכ"ל פיתוח
+        בתחומי הסייבר, האדטק והמובייל. אני בונה ומרחיב מערכות טכנולוגיות וגם את הצוותים
+        שמאחוריהן, עם דגש חזק על יעילות, אבטחה וחוויית משתמש.
+      </p>
+    </section>
+
+    <section>
+      <h2>ניסיון תעסוקתי</h2>
+      <ul class="roles">
+        <li>
+          <div class="top"><strong>Vassago</strong><span class="yr">2025 – היום</span></div>
+          <div class="title">מייסד שותף ו-CTO</div>
+          <span class="desc">בונים את שכבת הנתונים לעידן חיפוש ה-AI. תכננתי פלטפורמת Generative Engine Optimization (GEO), מנוע סיווג NLP רב-תוויות מבוסס RoBERTa מכוונן, ותשתית בקאנד ווקטור בעלת ביצועים גבוהים.</span>
+        </li>
+        <li>
+          <div class="top"><strong>Meta (Facebook)</strong><span class="yr">2022 – 2024</span></div>
+          <div class="title">מנהל הנדסה</div>
+          <span class="desc">הובלתי את קבוצת שירותי האימות של Meta (4 צוותים) על פני Facebook, Instagram ו-WhatsApp, בשיתוף ארגוני הפרטיות, האבטחה והנתונים. הובלתי תכנון ומימוש של מערכת המשרתת 2 מיליארד משתמשים פעילים בקנה מידה גבוה מאוד.</span>
+        </li>
+        <li>
+          <div class="top"><strong>Confidential</strong><span class="yr">2021 – 2022</span></div>
+          <div class="title">סמנכ"ל פיתוח</div>
+          <span class="desc">הובלתי חוקרים מצטיינים בתחומי הנדסה הפוכה ופענוח נתונים ב-iOS וב-Android בסטארטאפ סייבר/מודיעין. אחראי על המערכת כולה — לקוח, שרת ומובייל. טכנולוגיות: Kubernetes, RabbitMQ, Postgres, MongoDB, Grafana, gRPC.</span>
+        </li>
+        <li>
+          <div class="top"><strong>Somoto</strong><span class="yr">2017 – 2021</span></div>
+          <div class="title">סמנכ"ל פיתוח</div>
+          <span class="desc">הובלתי את צוותי השרת, הלקוח, האפליקציה, ה-QA וחטיבת הפרסום בחברת אדטק גלובלית. הגדלתי את הכנסות החברה תוך הפחתה משמעותית של עלויות התפעול. טכנולוגיות: GCP, AWS, מיקרו-שירותים, Kubernetes, Android, iOS.</span>
+        </li>
+        <li>
+          <div class="top"><strong>MyState</strong><span class="yr">2016 – 2017</span></div>
+          <div class="title">סמנכ"ל פיתוח</div>
+          <span class="desc">הובלתי את צוותי השרת, הענן, המובייל וה-QA לפלטפורמת מעורבות לקוחות. טכנולוגיות: Microsoft Azure, Angular, Android ו-iOS.</span>
+        </li>
+        <li>
+          <div class="top"><strong>Crazy Labs (TabTale)</strong><span class="yr">2013 – 2015</span></div>
+          <div class="title">מנהל פיתוח</div>
+          <span class="desc">הובלתי את פלטפורמת משחקי המובייל העולמית של מפיץ מוביל בתחום ההייפר-קז'ואל (מעל 6 מיליארד הורדות). עבודה ב-Agile/Scrum עם Jira, GitHub, Jenkins; C++, Java ו-Objective-C על Android ו-iOS.</span>
+        </li>
+        <li>
+          <div class="top"><strong>CEVA</strong><span class="yr">2005 – 2013</span></div>
+          <div class="title">מנהל קבוצת תוכנה</div>
+          <span class="desc">הובלתי את פיתוח כלי התוכנה של CEVA — דיבאגר, פרופיילר וכלי סימולציה — ויזמתי ומימשתי מוצר פרופיילינג ייחודי ל-CEVA לשיפור ביצועי זמן הריצה. קודם לכן: ראש צוות IDE.</span>
+        </li>
+        <li>
+          <div class="top"><strong>DSP Group</strong><span class="yr">2000 – 2004</span></div>
+          <div class="title">מהנדס תוכנה</div>
+          <span class="desc">תכנון ומימוש מודולי מוצר ב-C++; קודם לכן בניית חבילות בדיקה אוטומטיות ב-C++ וב-Perl.</span>
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>מיומנויות טכניות</h2>
+      <div class="skills">
+        <span>AI אג'נטי ו-Agent SDKs</span>
+        <span>LLMs</span>
+        <span>מסדי נתונים וקטוריים (Pinecone)</span>
+        <span>SingleStore</span>
+        <span>MongoDB Atlas</span>
+        <span>Python</span>
+        <span>TypeScript</span>
+        <span>Node.js</span>
+        <span>React · Next.js</span>
+        <span>FastAPI · Drizzle ORM</span>
+        <span>C++ · Java</span>
+        <span>AWS (Bedrock, ECS, S3, CDK)</span>
+        <span>Google Cloud</span>
+        <span>Kubernetes · מיקרו-שירותים</span>
+      </div>
+    </section>
+
+    <section>
+      <h2>השכלה</h2>
+      <p class="edu"><strong>M.Sc. במדעי המחשב</strong> — אוניברסיטת תל אביב (2007)</p>
+      <p class="edu"><strong>B.Sc. במדעי המחשב</strong> — אוניברסיטת בר-אילן, בוגר בהצטיינות (ממוצע 92)</p>
+    </section>
+
+    <section>
+      <h2>היכן למצוא אותי</h2>
+      <div class="links">
+        <a href="https://github.com/eidosaf" rel="me">GitHub</a>
+        <a href="https://www.linkedin.com/in/eido-safrai-8330893" rel="me">LinkedIn</a>
+        <a href="https://stackoverflow.com/users/27333343/eido-safrai" rel="me">Stack Overflow</a>
+        <a href="https://instagram.com/eidosaf" rel="me">Instagram</a>
+      </div>
+    </section>
+
+    <footer>
+      © <span id="year"></span> עידו ספראי
+    </footer>
+  </main>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+
+</html>
